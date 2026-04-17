@@ -1,0 +1,41 @@
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local machine config
+.venv/
+venv/
+env/
+.env
+.env.*
+.python-version
+
+# Local assistant/editor state
+.codex
+.vscode/
+.idea/
+
+# Model checkpoints and exported inference engines
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.mlmodel
+*.ncnn
+
+# Generated prediction artifacts
+outputs/
+runs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
